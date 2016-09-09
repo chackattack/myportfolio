@@ -1,0 +1,101 @@
+.container {
+  margin: 20px 10%;
+}
+
+/*I want to make the margins thicker. I want the body to be closer in the middle and not so wide out.*/
+body {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+/*Buy a date with shelby. Title*/
+
+.headingTitle {
+	font-size: 80px;
+	margin-bottom: 40px;
+}
+
+h1 {
+	height: 90px;
+	position: relative;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+.intro {
+	margin-left: 100px;
+	margin-right: 100px;
+	position: relative;
+
+}
+
+
+/* Color button and make the button rotate and grow, thanks IanLunn */
+.btn.btn-primary.btn-lg {
+	background-color: #BF5C5C;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(255,0,0,0.3);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.btn.btn-primary.btn-lg:hover, .btn.btn-primary.btn-lg:focus, .btn.btn-primary.btn-lg:active {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+}
+
+/*experimenting. How do i make the button background when clicked to a different color ??*/
+.btn.btn-primary.btn-lg:active, 
+.btn.btn-primary.btn-lg:focus, 
+.btn.btn-primary.btn-lg.active {
+	 background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+
+
+.dates {
+	margin: 10px 0;
+	height: 10px;
+}
+
+div#imgContainer {
+    padding: 13px;
+}
+
+.col-sm-3 {
+	height: 800px;
+}
+
+
+
+.img-responsive {
+    opacity: 0.6;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+
+
+/* How do i make borders around the things I wanna sell...??
+.col-sm-3 {
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+
+}*/
+
+/*to hide the music*/
+#foobar { display: none }
